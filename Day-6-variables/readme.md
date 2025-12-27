@@ -1,6 +1,6 @@
 Terrafom variables
 1. input variables
-
+   inline variables
 ( variable passing method: 1. using default values in variables 2. runtime variables)
     Example : inside main.tf
     # Inline variables
@@ -9,7 +9,7 @@ Terrafom variables
             default = "Terraform-RG" # very least way to pass variable value
             description = "This variable for RG Creation"
         }
-2. external variables 
+    external variables 
     ( variable passing method: 1. using default values in variables 2. runtime variables)
     
     Example : create variales.tf separate file in working directory
