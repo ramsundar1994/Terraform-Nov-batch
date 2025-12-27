@@ -24,9 +24,9 @@ Terrafom variables
         --> terraform apply -var="rg=variable-rg" -var="location=westus"
 ======================================================================
 variable passing method
-1. using default values ( lease  method )
-2. run time variables (lease method)
-3. using tfvars file ( first priority)
+    1. using default values ( lease  method )
+    2. run time variables (lease method)
+    3. using tfvars file ( first priority)
 =======================================================================
 
 2. local variables
