@@ -1,0 +1,93 @@
+Windows Patching !!
+
+Usually MS Security patches will be released by MS everymonth second Tuesday !!
+
+post MS released, we have to plan patching for both Prod and non env
+
+Always Non Prod should first and Prod
+
+3rd week Non prod
+4th weekf Prod
+
+During off business patching we do for 8hours of downtime window
+
+and then 
+
+Patching tools and scripts 
+
+Method 1
+
+for patches pushing from MS  WSUS 
+
+apply and restarting - powershell script
+
+Method 2
+
+Azure update management for patching
+
+with a help of automation account 
+
+we can schedule the servers and which date patch needs to install and reboot
+
+--------------------------------------------------------------------------------
+
+Monitoring !!
+
+Splunk Monitoring - we have configured thresold for CPU , memory, Disk , VM.
+
+blackout , Maintanence mode 
+
+Azure monitoring tools - metrics and Insights  (LAW - will store the logs)
+
+------------------------------------------------------------------------------
+Load Balancer and Application gateway
+
+routing the traffic based on the load, to backend servers.
+
+OSI layers 4 - Transport layer TCP and UDP based protocol
+
+Health probe - every fewmins - Health prbe will send heartbeat signal - whether backend servers are health or not
+
+Session Persistance - None , Client IP , and thrid Client IP with Protocol
+
+---------------------------------------------------------------------------
+
+Application gateway 
+
+its act as Layer 7 - web traffic 
+
+---------------------------------------------------------------------------
+
+ Types of storage account
+
+1. Blob container
+2.Azure file share
+3.queue
+4.table
+5. managed disk
+
+Storage Data Redudancy 
+
+LRS
+ZRS
+GRS
+GZRS
+
+------------------------------
+
+Backup 
+
+(Recovery service vault)
+1. we will add newly created vms into backup and trigger.
+2. we have two backup policy one is 15days backup retention non prod and another 30days retentions for prod
+3. we restore vms from backup based on request.
+4. three kind of actions can be performed using backup . 
+	1. Create new vm from backup (duplicate of original vm)
+	2. restoring existing vm (in case of trouble shooting we use this) -
+	3. Restore only disks - 
+
+vm1 5data disk .  resgtore only disk from vm1 backup
+
+vm2 machine then i will atach vm1 5data disks
+
+----------------------------------------------------------------

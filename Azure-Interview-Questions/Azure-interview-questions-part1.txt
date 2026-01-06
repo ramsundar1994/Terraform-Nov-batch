@@ -1,0 +1,85 @@
+15mins to 30mins 
+
+15mins to 25mins 
+
+15mins to 45mins - more experienced 
+
+
+tell about yourself - 2mins time
+
+1. about you 
+2. i have overall 3years in exp in IT industry  and i am currently working company as a software engineer.
+
+what's your rolls and responsibilities - 2 to 5mins times , 3mins times (Azure cloud, Linux) + Onprem Linux
+
+1. about your project and location , overall exp in project 
+2. day to day activities 
+
+* Azure Compute service - Azure VM 
+
+1. Deploy vm from Azure market place - 
+2. deploy vm from golden images - customized images self by azure infra 
+3. programmatic way to deploy vm - (under development)
+
+Regular Tasks:
+
+1. Vm resize - upgrade and downgrade 
+2. New disk creation and extension of disk
+3. deletion of disks 
+4. os level C drive space clear and page file activities
+5. Troubleshooting of VM - high CPU and memory utilization 
+	Vm crashed, VM blank screen issue, VM redeploy and Reapply 
+
+* Networking concept
+
+1. i have created vnet and subnet in our project 
+
+2. vnet Peering worked & NSG and Inbound and outbound rules 
+3. vm network related day to day activities
+
+* Storages
+
+1. you have created storage account 
+2. created azure blob containers and file share
+
+* Backup things and DR Related
+
+commvault and azure backup
+
+*patching
+ 
+wsus Windows server Patching and Azure update management
+
+* Monitoring
+ 
+splunk and then Azure monitor service like metric, insights. (jira and Service ticking tool )
+
+load balancer layer4  and app gateway layer 7 web https,http
+
+interviwer questions sessions - 10mins time 
+1. compute service
+2. script basics
+2. troubleshooting 
+3. VPN concept from networking
+4. what are the types of storage account
+5. backup related - how to restore vm from backup , rentions timing 
+6. Monitoring related .
+7.Patching related
+
+
+3. Troubleshooting of VM 
+
+1. VM is hung state ?
+p3 alerts
+
+1. VM dashboard /overview - VM status - like running or failed or updating
+2. if issue with VM agent - agent is not ready state !! - we hvae to take necessary approval from app owner and reboot. 90%
+3. Boot diag - screen you have check the status of vm - whether is hung or anything is stuck in screen 
+4. Resource health - outage from MS side or somebody or client might rebooted machines.
+5. VM is in blank screen or blue screen erros - VM Redeploy and re -apply - when VM status in failed state 
+6. due to high CPU or Memory utilization machine go hung state- 
+
+80% p3 - SQL DB consuming more CPU 
+90% - in the splunk can increate threshold vaule to till 90% 
+
+
