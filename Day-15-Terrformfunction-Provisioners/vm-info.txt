@@ -1,0 +1,4 @@
+VM Created with public IP 20.119.58.141 
+VM Created with public IP 104.211.59.108 
+VM Created with public IP 20.51.146.123 
+VM Created with public IP 20.127.25.94 
